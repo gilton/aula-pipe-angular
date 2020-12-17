@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SqrtPipe } from './shared/pipes/sqrt.pipe';
+import { ExtensionDatePipe } from './shared/pipes/extension-date.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SqrtPipe
+    SqrtPipe,
+    ExtensionDatePipe
   ],
   imports: [
     BrowserModule,
